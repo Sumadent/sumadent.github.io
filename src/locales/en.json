@@ -14,21 +14,21 @@
   "services": {
     "title": "Our Services",
     "categories": {
-      "dh": {
-        "title": "Dental Hygiene",
-        "desc": "Professional teeth cleaning for lasting health."
+      "general": {
+        "title": "General & Conservative Dentistry",
+        "desc": "Gentle cavity treatment, fillings, and root canal therapy to preserve your teeth."
+      },
+      "prosthetics": {
+        "title": "Tooth Replacement",
+        "desc": "Crowns, bridges, and dentures – custom-made, functional, and aesthetic."
       },
       "aesthetic": {
         "title": "Aesthetic Dentistry",
-        "desc": "Bleaching & Veneers for a bright smile."
+        "desc": "Bleaching, veneers, and tooth-colored restorations for your best smile."
       },
-      "implants": {
-        "title": "Implants",
-        "desc": "High-quality tooth replacement with the latest technology."
-      },
-      "ortho": {
-        "title": "Orthodontics",
-        "desc": "Invisible braces (Invisalign) for adults."
+      "dh": {
+        "title": "Dental Hygiene",
+        "desc": "Professional teeth cleaning and prevention for long-term oral health."
       }
     }
   },
@@ -45,7 +45,9 @@
     "title": "Contact & Location",
     "opening_hours": "Opening Hours",
     "address": "Address",
-    "directions": "Directions"
+    "directions": "Directions",
+    "sbb_button": "Search Connection",
+    "sbb_desc": "Opens the SBB timetable with your current location as the starting point."
   },
   "footer": {
     "rights": "All rights reserved."

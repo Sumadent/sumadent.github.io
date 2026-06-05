@@ -14,21 +14,21 @@
   "services": {
     "title": "I Nostri Servizi",
     "categories": {
-      "dh": {
-        "title": "Igiene Dentale",
-        "desc": "Pulizia professionale dei denti per una salute duratura."
+      "general": {
+        "title": "Odontoiatria generale e conservativa",
+        "desc": "Trattamento delicato delle carie, otturazioni e devitalizzazioni per salvare i vostri denti."
+      },
+      "prosthetics": {
+        "title": "Protesi dentarie",
+        "desc": "Corone, ponti e protesi – personalizzati, funzionali ed estetici."
       },
       "aesthetic": {
-        "title": "Odontoiatria Estetica",
-        "desc": "Sbiancamento & Faccette per un sorriso luminoso."
+        "title": "Odontoiatria estetica",
+        "desc": "Sbiancamento, faccette e restauri estetici per il vostro sorriso migliore."
       },
-      "implants": {
-        "title": "Impianti",
-        "desc": "Sostituzione dentale di alta qualità con le ultime tecnologie."
-      },
-      "ortho": {
-        "title": "Ortodonzia",
-        "desc": "Apparecchi invisibili (Invisalign) per adulti."
+      "dh": {
+        "title": "Igiene dentale",
+        "desc": "Pulizia professionale dei denti e profilassi per una salute orale a lungo termine."
       }
     }
   },
@@ -45,7 +45,9 @@
     "title": "Contatto & Posizione",
     "opening_hours": "Orari di apertura",
     "address": "Indirizzo",
-    "directions": "Indicazioni"
+    "directions": "Indicazioni",
+    "sbb_button": "Cerca collegamento",
+    "sbb_desc": "Apre l'orario FFS impostando la tua posizione attuale come punto di partenza."
   },
   "footer": {
     "rights": "Tutti i diritti riservati."

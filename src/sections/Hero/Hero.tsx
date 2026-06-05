@@ -33,7 +33,7 @@ export function Hero(): JSX.Element {
               className="hero__cta"
             >
               <Phone size={20} className="hero__cta-icon" />
-              {t('hero.cta')}
+              {t('hero.cta')}: {clinicConfig.phoneDisplay}
             </Button>
           </div>
         </div>

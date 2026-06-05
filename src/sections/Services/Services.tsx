@@ -17,7 +17,7 @@ function ServiceCard({ id }: ServiceCardProps): JSX.Element {
 
 export function Services(): JSX.Element {
   const { t } = useTranslation();
-  const serviceKeys = ['dh', 'aesthetic', 'implants', 'ortho'];
+  const serviceKeys = ['dh', 'general', 'prosthetics', 'aesthetic'];
 
   return (
     <section id="services" className="section services">

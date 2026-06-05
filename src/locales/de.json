@@ -14,21 +14,21 @@
   "services": {
     "title": "Unsere Dienstleistungen",
     "categories": {
-      "dh": {
-        "title": "Dentalhygiene",
-        "desc": "Professionelle Zahnreinigung für dauerhafte Gesundheit."
+      "general": {
+        "title": "Allgemeine & konservierende Zahnheilkunde",
+        "desc": "Schonende Kariesbehandlung, Füllungen und Wurzelkanalbehandlungen für den Zahnerhalt."
+      },
+      "prosthetics": {
+        "title": "Zahnersatz",
+        "desc": "Kronen, Brücken und Prothesen – massgeschneidert, funktional und ästhetisch."
       },
       "aesthetic": {
         "title": "Ästhetische Zahnmedizin",
-        "desc": "Bleaching & Veneers für ein strahlendes Lächeln."
+        "desc": "Bleaching, Veneers und zahnfarbene Restaurationen für Ihr schönstes Lächeln."
       },
-      "implants": {
-        "title": "Implantate",
-        "desc": "Hochwertiger Zahnersatz mit modernster Technik."
-      },
-      "ortho": {
-        "title": "Kieferorthopädie",
-        "desc": "Unsichtbare Zahnspangen (Invisalign) für Erwachsene."
+      "dh": {
+        "title": "Dentalhygiene",
+        "desc": "Professionelle Zahnreinigung und Prophylaxe zur langfristigen Gesunderhaltung."
       }
     }
   },
@@ -45,7 +45,9 @@
     "title": "Kontakt & Standort",
     "opening_hours": "Öffnungszeiten",
     "address": "Adresse",
-    "directions": "Anfahrt"
+    "directions": "Anfahrt",
+    "sbb_button": "Verbindung suchen",
+    "sbb_desc": "Öffnet den SBB-Fahrplan mit Ihrer aktuellen Position als Startpunkt."
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten."
