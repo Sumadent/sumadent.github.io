@@ -20,6 +20,7 @@ export function Footer(): JSX.Element {
         <div className="footer__col">
           <h3 className="footer__title">{t('contact.title')}</h3>
           <p className="footer__text">
+            SUMA DENT<br />
             {clinicConfig.address.street}<br />
             {clinicConfig.address.zip} {clinicConfig.address.city}
           </p>
@@ -30,8 +31,11 @@ export function Footer(): JSX.Element {
         </div>
       </div>
       <div className="footer__bottom">
-        <div className="container">
+        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <p>&copy; {currentYear} SUMADENT. {t('footer.rights')}</p>
+          <a href="#/impressum" className="footer__link" style={{ color: 'var(--color-text-light)', textDecoration: 'none' }}>
+            {t('impressum.title', 'Impressum')}
+          </a>
         </div>
       </div>
     </footer>

@@ -5,9 +5,10 @@ import { Services } from './sections/Services/Services';
 import { Team } from './sections/Team/Team';
 import { Contact } from './sections/Contact/Contact';
 import { Footer } from './components/Footer/Footer';
+import { Impressum } from './sections/Impressum/Impressum';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<'home' | 'team'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'team' | 'impressum'>('home');
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
 
   useEffect(() => {
@@ -20,6 +21,9 @@ function App() {
       const hash = window.location.hash;
       if (hash === '#/team') {
         setCurrentPage('team');
+        window.scrollTo(0, 0);
+      } else if (hash === '#/impressum') {
+        setCurrentPage('impressum');
         window.scrollTo(0, 0);
       } else {
         setCurrentPage('home');
@@ -52,14 +56,22 @@ function App() {
       <main>
         {isDesktop ? (
           <>
-            <Hero />
-            <Services />
-            <Team />
-            <Contact />
+            {currentPage === 'impressum' ? (
+              <Impressum />
+            ) : (
+              <>
+                <Hero />
+                <Services />
+                <Team />
+                <Contact />
+              </>
+            )}
           </>
         ) : (
           <>
-            {currentPage === 'home' ? (
+            {currentPage === 'impressum' ? (
+              <Impressum />
+            ) : currentPage === 'home' ? (
               <>
                 <Hero />
                 <Services />
