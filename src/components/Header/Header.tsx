@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Phone } from 'lucide-react';
 import { clinicConfig } from '../../config/clinicConfig';
 import { Button } from '../Button/Button';
+import logoImg from '../../assets/placeholders/logo.jpeg';
 import './Header.css';
 
 export function Header(): JSX.Element {
@@ -15,7 +16,9 @@ export function Header(): JSX.Element {
     <header className="header">
       <div className="container header__container">
         <div className="header__logo">
-          <a href="/">SUMADENT</a>
+          <a href="/">
+            <img src={logoImg} alt="SUMADENT" className="header__logo-img" />
+          </a>
         </div>
 
         <nav className="header__nav">

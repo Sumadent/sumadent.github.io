@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { clinicConfig } from '../../config/clinicConfig';
+import logoImg from '../../assets/placeholders/logo.jpeg';
 import './Footer.css';
 
 export function Footer(): JSX.Element {
@@ -10,7 +11,7 @@ export function Footer(): JSX.Element {
     <footer className="footer">
       <div className="container footer__container">
         <div className="footer__col">
-          <h3 className="footer__title">SUMADENT</h3>
+          <img src={logoImg} alt="SUMADENT" className="footer__logo-img" />
           <p className="footer__text">
             {t('hero.subtitle')}
           </p>

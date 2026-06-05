@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Phone, ShieldCheck } from 'lucide-react';
 import { clinicConfig } from '../../config/clinicConfig';
 import { Button } from '../../components/Button/Button';
+import landingImg from '../../assets/placeholders/placeHolderLandingImage.jpeg';
 import './Hero.css';
 
 export function Hero(): JSX.Element {
@@ -9,6 +10,9 @@ export function Hero(): JSX.Element {
 
   return (
     <section className="hero">
+      <div className="hero__image-wrapper">
+        <img src={landingImg} alt="Sumadent Clinic" className="hero__image" />
+      </div>
       <div className="container hero__container">
         <div className="hero__content">
           <div className="hero__badge-wrapper">
