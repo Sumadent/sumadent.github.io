@@ -5,6 +5,12 @@
     "contact": "Contatto",
     "book_now": "Prenota Appuntamento"
   },
+  "seo": {
+    "title": "Sumadent – Studio dentistico Weesen",
+    "description": "Studio dentistico professionale a Weesen. Igiene dentale, trattamenti moderni e un team che si prende cura di voi.",
+    "og_title": "Sumadent – Il vostro studio dentistico a Weesen",
+    "og_description": "Odontoiatria moderna, qualità svizzera e assistenza personalizzata a Weesen."
+  },
   "hero": {
     "title": "Il tuo sorriso nelle migliori mani.",
     "subtitle": "Studio dentistico a Weesen. Trattamenti moderni, qualità svizzera e un team che si prende cura di voi.",
@@ -43,11 +49,27 @@
   },
   "contact": {
     "title": "Contatto & Posizione",
+    "contact_label": "Contatto",
     "opening_hours": "Orari di apertura",
     "address": "Indirizzo",
     "directions": "Indicazioni",
     "sbb_button": "Cerca collegamento",
     "sbb_desc": "Apre l'orario FFS impostando la tua posizione attuale come punto di partenza."
+  },
+  "impressum": {
+    "title": "Note legali",
+    "company": "Nome & Indirizzo",
+    "representative": "Persone autorizzate alla rappresentanza",
+    "representative_value": "Sushma Ilg, Igienista dentale dipl. SS",
+    "contact": "Contatto",
+    "phone_label": "Telefono",
+    "email_label": "E-mail",
+    "disclaimer_title": "Esclusione di responsabilità",
+    "disclaimer_text": "L'autore non si assume alcuna responsabilità in merito alla correttezza, all'accuratezza, all'attualità, all'affidabilità e alla completezza delle informazioni. Sono escluse le richieste di risarcimento nei confronti dell'autore per danni materiali o immateriali derivanti dall'accesso, dall'uso o dal mancato uso delle informazioni pubblicate, dall'uso improprio della connessione o da guasti tecnici. Tutte le offerte sono senza impegno. L'autore si riserva espressamente il diritto di modificare, integrare o eliminare parti delle pagine o l'intera offerta senza preavviso, o di sospenderne temporaneamente o definitivamente la pubblicazione.",
+    "links_title": "Responsabilità per i link",
+    "links_text": "I rimandi e i collegamenti a siti web di terzi non rientrano nel nostro ambito di responsabilità. Si declina ogni responsabilità per tali siti web. L'accesso e l'utilizzo di tali siti avvengono a rischio e pericolo dell'utente.",
+    "copyright_title": "Diritti d'autore",
+    "copyright_text": "I diritti d'autore e tutti gli altri diritti sui contenuti, le immagini, le foto o altri file presenti sul sito web appartengono esclusivamente alla società menzionata o ai titolari dei diritti specificamente indicati. Per la riproduzione di qualsiasi elemento è necessario ottenere preventivamente il consenso scritto dei titolari dei diritti d'autore."
   },
   "footer": {
     "rights": "Tutti i diritti riservati."

@@ -1,42 +1,22 @@
 import { useTranslation } from 'react-i18next';
-import profilePlaceholder from '../../assets/placeholders/userProfilepicture_placholder.jpeg';
+import { TEAM_MEMBERS } from '@/config/team';
 import './Team.css';
-
-interface TeamMember {
-  name: string;
-  roleKey: string;
-}
 
 export function Team(): JSX.Element {
   const { t } = useTranslation();
-
-  const members: TeamMember[] = [
-    {
-      name: 'med. dent. Sven Vanderburg',
-      roleKey: 'team.roles.dentist',
-    },
-    {
-      name: 'Sushma Ilg',
-      roleKey: 'team.roles.hygienist',
-    },
-    {
-      name: 'Valentina Dula',
-      roleKey: 'team.roles.assistant',
-    },
-  ];
 
   return (
     <section id="team" className="section team">
       <div className="container">
         <h2 className="section-title">{t('team.title')}</h2>
         <p className="team__subtitle">{t('team.subtitle')}</p>
-        
+
         <div className="team__grid">
-          {members.map((member, idx) => (
-            <div key={idx} className="team-member">
+          {TEAM_MEMBERS.map((member) => (
+            <div key={member.name} className="team-member">
               <div className="team-member__image-wrapper">
                 <img
-                  src={profilePlaceholder}
+                  src={member.image}
                   alt={member.name}
                   className="team-member__image"
                 />

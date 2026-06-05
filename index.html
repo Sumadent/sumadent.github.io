@@ -3,63 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      The title, description, Open Graph / Twitter tags and the JSON-LD structured
+      data are generated at runtime from the clinic config and localized per
+      language by the <Seo> component (src/components/Seo/Seo.tsx). The values
+      below are first-paint / no-JS defaults only — do not hand-maintain a second
+      copy of the structured data here.
+    -->
     <title>Sumadent - Zahnarztpraxis Weesen</title>
-    <meta name="description" content="Professionelle Zahnarztpraxis in Weesen. Dentalhygiene durch Sushma Ilg, moderne Behandlungen durch Sven Vanderburg und das Team." />
+    <meta
+      name="description"
+      content="Professionelle Zahnarztpraxis in Weesen. Dentalhygiene, moderne Behandlungen und ein Team, das sich um Sie kümmert."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Sumadent – Ihre Zahnarztpraxis in Weesen"
+    />
+    <meta
+      property="og:description"
+      content="Moderne Zahnmedizin, Schweizer Qualität und persönliche Betreuung in Weesen."
+    />
+    <meta property="og:url" content="https://www.sumadent.ch" />
+    <meta name="twitter:card" content="summary_large_image" />
+
     <!-- Preconnect to Google Fonts for Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" type="image/jpeg" href="/favicon.jpeg" />
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Dentist",
-      "name": "Sumadent",
-      "image": "https://www.sumadent.ch/assets/logo.png",
-      "telePhone": "+41 55 616 10 43",
-      "email": "info@sumadent.ch",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Schulhausstrasse 6",
-        "addressLocality": "Weesen",
-        "postalCode": "8872",
-        "addressRegion": "SG",
-        "addressCountry": "CH"
-      },
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Thursday"],
-          "opens": "07:30",
-          "closes": "16:00"
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Tuesday",
-          "opens": "07:30",
-          "closes": "12:00"
-        }
-      ],
-      "employee": [
-        {
-          "@type": "Person",
-          "name": "Sven Vanderburg",
-          "jobTitle": "Zahnarzt"
-        },
-        {
-          "@type": "Person",
-          "name": "Sushma Ilg",
-          "jobTitle": "Dipl. Dentalhygienikerin HF"
-        },
-        {
-          "@type": "Person",
-          "name": "Valentina Dula",
-          "jobTitle": "Dentalassistentin"
-        }
-      ]
-    }
-    </script>
   </head>
   <body>
     <div id="root"></div>

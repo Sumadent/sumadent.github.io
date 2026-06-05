@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import { Phone, ShieldCheck } from 'lucide-react';
-import { clinicConfig } from '../../config/clinicConfig';
-import { Button } from '../../components/Button/Button';
-import landingImg from '../../assets/placeholders/placeHolderLandingImage.jpeg';
+import { clinicConfig } from '@/config/clinicConfig';
+import { Button } from '@/components/Button/Button';
+import landingImg from '@/assets/placeholders/placeHolderLandingImage.jpeg';
 import './Hero.css';
 
 export function Hero(): JSX.Element {
@@ -21,10 +21,10 @@ export function Hero(): JSX.Element {
               {t('hero.badge_sso')}
             </span>
           </div>
-          
+
           <h1 className="hero__title">{t('hero.title')}</h1>
           <p className="hero__subtitle">{t('hero.subtitle')}</p>
-          
+
           <div className="hero__actions">
             <Button
               as="a"

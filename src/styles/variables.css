@@ -1,46 +1,48 @@
 :root {
   /* Brand Primary */
-  --color-navy: #001838;       /* Deep Navy Blue from Logo (HSL: 214°, 100%, 11%) */
+  --color-navy: #001838; /* Deep Navy Blue from Logo (HSL: 214°, 100%, 11%) */
   --color-navy-light: #0d284d; /* Hover / Secondary Navy */
-  --color-white: #ffffff;      /* Pure White */
+  --color-white: #ffffff; /* Pure White */
 
   /* Neutral Backgrounds */
-  --color-bg-light: #ffffff;   /* Primary page background */
-  --color-bg-soft: #f4f6f9;    /* Alternating section background (Ice Gray) */
-  --color-bg-dark: #001838;    /* Dark navy background (for header/footer) */
+  --color-bg-light: #ffffff; /* Primary page background */
+  --color-bg-soft: #f4f6f9; /* Alternating section background (Ice Gray) */
+  --color-bg-dark: #001838; /* Dark navy background (for header/footer) */
 
   /* Typography Colors */
-  --color-text-primary: #0f172a;   /* Slate 900 for high-contrast headings */
+  --color-text-primary: #0f172a; /* Slate 900 for high-contrast headings */
   --color-text-secondary: #475569; /* Slate 600 for readable body copy */
-  --color-text-muted: #94a3b8;     /* Slate 400 for subtext / labels */
-  --color-text-on-dark: #ffffff;  /* Text on navy background */
+  --color-text-muted: #94a3b8; /* Slate 400 for subtext / labels */
+  --color-text-on-dark: #ffffff; /* Text on navy background */
 
   /* Accents & States */
-  --color-accent: #001838;         /* Primary brand color acts as primary action */
-  --color-star-silver: #e2e8f0;    /* Muted silver-blue for borders/dividers */
-  --color-swiss-red: #d52b1e;      /* Swiss Red */
+  --color-accent: #001838; /* Primary brand color acts as primary action */
+  --color-star-silver: #e2e8f0; /* Muted silver-blue for borders/dividers */
+  --color-swiss-red: #d52b1e; /* Swiss Red */
 
   /* Border & Shadows */
   --border-hairline: 1px solid rgba(0, 24, 56, 0.1);
   --border-hairline-dark: 1px solid rgba(255, 255, 255, 0.15);
 
   /* Typography Scale */
-  --font-header: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-header:
+    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif;
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 
   --size-display-1: 2.5rem;
-  --size-h1: 2.0rem;
+  --size-h1: 2rem;
   --size-h2: 1.5rem;
   --size-h3: 1.15rem;
-  --size-body: 1.0rem;
+  --size-body: 1rem;
   --size-caption: 0.875rem;
 }
 
 @media (min-width: 1024px) {
   :root {
     --size-display-1: 4.5rem;
-    --size-h1: 3.0rem;
-    --size-h2: 2.0rem;
+    --size-h1: 3rem;
+    --size-h2: 2rem;
     --size-h3: 1.25rem;
   }
 }

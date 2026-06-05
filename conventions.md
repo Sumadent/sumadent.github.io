@@ -14,8 +14,13 @@ sumadent/
 ├── public/                 # Static assets (favicons, manifest, etc.)
 ├── src/
 │   ├── assets/             # Images, icons, and illustrations
-│   ├── config/             # Static configurations
-│   │   └── clinicConfig.ts # Single source of truth for phone, opening hours, etc.
+│   ├── config/             # Single sources of truth (content/data layer)
+│   │   ├── clinicConfig.ts # Phone, address, opening hours, transit notes
+│   │   ├── languages.ts    # Supported languages + LanguageCode type
+│   │   ├── team.ts         # Team members
+│   │   ├── services.ts     # Service keys
+│   │   ├── navigation.ts   # Nav links + Page/route definitions
+│   │   └── site.ts         # Brand identity & social/SEO assets
 │   ├── components/         # Reusable UI components
 │   │   ├── Button/
 │   │   │   ├── Button.tsx
@@ -26,6 +31,7 @@ sumadent/
 │   │   ├── Hero/
 │   │   ├── Services/
 │   │   └── ...
+│   ├── router/             # PageRouter (maps current page/layout to sections)
 │   ├── hooks/              # Custom React hooks
 │   ├── styles/             # Global styles and design tokens
 │   │   ├── variables.css
@@ -78,7 +84,7 @@ sumadent/
 - **Type vs Interface**:
   - Use `interface` for component props and public API contracts (extendable).
   - Use `type` for unions, intersections, utilities, and action types.
-- **Imports**: Prefer absolute path imports if configured, or clean relative paths. Group imports:
+- **Imports**: Use the `@/` path alias for everything under `src/` (e.g. `import { Button } from '@/components/Button/Button'`). It is configured in `vite.config.ts` and `tsconfig.json`. Group imports:
   1. React and third-party libraries.
   2. Local components and sections.
   3. Custom hooks and utils.

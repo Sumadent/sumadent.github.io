@@ -5,6 +5,12 @@
     "contact": "Kontakt",
     "book_now": "Termin buchen"
   },
+  "seo": {
+    "title": "Sumadent – Zahnarztpraxis Weesen",
+    "description": "Professionelle Zahnarztpraxis in Weesen. Dentalhygiene, moderne Behandlungen und ein Team, das sich um Sie kümmert.",
+    "og_title": "Sumadent – Ihre Zahnarztpraxis in Weesen",
+    "og_description": "Moderne Zahnmedizin, Schweizer Qualität und persönliche Betreuung in Weesen."
+  },
   "hero": {
     "title": "Ihr Lächeln in besten Händen.",
     "subtitle": "Zahnarztpraxis in Weesen. Moderne Behandlungen, Schweizer Qualität und ein Team, das sich um Sie kümmert.",
@@ -43,11 +49,27 @@
   },
   "contact": {
     "title": "Kontakt & Standort",
+    "contact_label": "Kontakt",
     "opening_hours": "Öffnungszeiten",
     "address": "Adresse",
     "directions": "Anfahrt",
     "sbb_button": "Verbindung suchen",
     "sbb_desc": "Öffnet den SBB-Fahrplan mit Ihrer aktuellen Position als Startpunkt."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "company": "Name & Adresse",
+    "representative": "Vertretungsberechtigte Personen",
+    "representative_value": "Sushma Ilg, Dipl. Dentalhygienikerin HF",
+    "contact": "Kontakt",
+    "phone_label": "Telefon",
+    "email_label": "E-Mail",
+    "disclaimer_title": "Haftungsausschluss",
+    "disclaimer_text": "Der Autor übernimmt keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit der Informationen. Haftungsansprüche gegen den Autor wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen. Alle Angebote sind unverbindlich. Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.",
+    "links_title": "Haftung für Links",
+    "links_text": "Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs. Es wird jegliche Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf eigene Gefahr des Nutzers oder der Nutzerin.",
+    "copyright_title": "Urheberrechte",
+    "copyright_text": "Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der Website gehören ausschliesslich der genannten Firma oder den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen."
   },
   "footer": {
     "rights": "Alle Rechte vorbehalten."
