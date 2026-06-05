@@ -34,7 +34,12 @@
   },
   "team": {
     "title": "Il Nostro Team",
-    "subtitle": "Competenza ed empatia per la tua salute dentale."
+    "subtitle": "Competenza ed empatia per la tua salute dentale.",
+    "roles": {
+      "dentist": "Dentista (SSO)",
+      "hygienist": "Igienista dentale dipl. SS",
+      "assistant": "Assistente dentale"
+    }
   },
   "contact": {
     "title": "Contatto & Posizione",

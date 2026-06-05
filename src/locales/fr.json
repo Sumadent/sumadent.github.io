@@ -34,7 +34,12 @@
   },
   "team": {
     "title": "Notre Équipe",
-    "subtitle": "Compétence et empathie pour votre santé dentaire."
+    "subtitle": "Compétence et empathie pour votre santé dentaire.",
+    "roles": {
+      "dentist": "Dentiste (SSO)",
+      "hygienist": "Hygiéniste dentaire dipl. ES",
+      "assistant": "Assistante dentaire"
+    }
   },
   "contact": {
     "title": "Contact & Accès",

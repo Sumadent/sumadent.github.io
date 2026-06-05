@@ -34,7 +34,12 @@
   },
   "team": {
     "title": "Unser Team",
-    "subtitle": "Kompetenz und Einfühlungsvermögen für Ihre Zahngesundheit."
+    "subtitle": "Kompetenz und Einfühlungsvermögen für Ihre Zahngesundheit.",
+    "roles": {
+      "dentist": "Zahnarzt (SSO)",
+      "hygienist": "Dipl. Dentalhygienikerin HF",
+      "assistant": "Dentalassistentin"
+    }
   },
   "contact": {
     "title": "Kontakt & Standort",

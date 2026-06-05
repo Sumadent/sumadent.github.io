@@ -34,7 +34,12 @@
   },
   "team": {
     "title": "Our Team",
-    "subtitle": "Competence and empathy for your dental health."
+    "subtitle": "Competence and empathy for your dental health.",
+    "roles": {
+      "dentist": "Dentist (SSO)",
+      "hygienist": "Registered Dental Hygienist",
+      "assistant": "Dental Assistant"
+    }
   },
   "contact": {
     "title": "Contact & Location",
