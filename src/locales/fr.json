@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "services": "Services",
+    "team": "Équipe",
+    "contact": "Contact",
+    "book_now": "Prendre Rendez-vous"
+  },
+  "hero": {
+    "title": "Votre sourire entre de bonnes mains.",
+    "subtitle": "Cabinet dentaire premium à Zurich. Traitements modernes, qualité suisse et une équipe à votre écoute.",
+    "cta": "Appeler & Réserver",
+    "badge_sso": "Membre SSO"
+  },
+  "services": {
+    "title": "Nos Services",
+    "categories": {
+      "dh": {
+        "title": "Hygiène Dentaire",
+        "desc": "Nettoyage professionnel pour une santé durable."
+      },
+      "aesthetic": {
+        "title": "Dentisterie Esthétique",
+        "desc": "Blanchiment & Facettes pour un sourire éclatant."
+      },
+      "implants": {
+        "title": "Implants",
+        "desc": "Remplacement dentaire de haute qualité avec les dernières technologies."
+      },
+      "ortho": {
+        "title": "Orthodontie",
+        "desc": "Appareils invisibles (Invisalign) pour adultes."
+      }
+    }
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Compétence et empathie pour votre santé dentaire."
+  },
+  "contact": {
+    "title": "Contact & Accès",
+    "opening_hours": "Heures d'ouverture",
+    "address": "Adresse",
+    "directions": "Accès"
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

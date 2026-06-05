@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "services": "Dienstleistungen",
+    "team": "Team",
+    "contact": "Kontakt",
+    "book_now": "Termin buchen"
+  },
+  "hero": {
+    "title": "Ihr Lächeln in besten Händen.",
+    "subtitle": "Premium Zahnarztpraxis in Zürich. Moderne Behandlungen, Schweizer Qualität und ein Team, das sich um Sie kümmert.",
+    "cta": "Jetzt anrufen & Termin vereinbaren",
+    "badge_sso": "Mitglied SSO"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "categories": {
+      "dh": {
+        "title": "Dentalhygiene",
+        "desc": "Professionelle Zahnreinigung für dauerhafte Gesundheit."
+      },
+      "aesthetic": {
+        "title": "Ästhetische Zahnmedizin",
+        "desc": "Bleaching & Veneers für ein strahlendes Lächeln."
+      },
+      "implants": {
+        "title": "Implantate",
+        "desc": "Hochwertiger Zahnersatz mit modernster Technik."
+      },
+      "ortho": {
+        "title": "Kieferorthopädie",
+        "desc": "Unsichtbare Zahnspangen (Invisalign) für Erwachsene."
+      }
+    }
+  },
+  "team": {
+    "title": "Unser Team",
+    "subtitle": "Kompetenz und Einfühlungsvermögen für Ihre Zahngesundheit."
+  },
+  "contact": {
+    "title": "Kontakt & Standort",
+    "opening_hours": "Öffnungszeiten",
+    "address": "Adresse",
+    "directions": "Anfahrt"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

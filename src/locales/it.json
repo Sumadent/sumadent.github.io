@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "services": "Servizi",
+    "team": "Team",
+    "contact": "Contatto",
+    "book_now": "Prenota Appuntamento"
+  },
+  "hero": {
+    "title": "Il tuo sorriso nelle migliori mani.",
+    "subtitle": "Studio dentistico premium a Zurigo. Trattamenti moderni, qualità svizzera e un team che si prende cura di te.",
+    "cta": "Chiama ora e prenota",
+    "badge_sso": "Membro SSO"
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "categories": {
+      "dh": {
+        "title": "Igiene Dentale",
+        "desc": "Pulizia professionale dei denti per una salute duratura."
+      },
+      "aesthetic": {
+        "title": "Odontoiatria Estetica",
+        "desc": "Sbiancamento & Faccette per un sorriso luminoso."
+      },
+      "implants": {
+        "title": "Impianti",
+        "desc": "Sostituzione dentale di alta qualità con le ultime tecnologie."
+      },
+      "ortho": {
+        "title": "Ortodonzia",
+        "desc": "Apparecchi invisibili (Invisalign) per adulti."
+      }
+    }
+  },
+  "team": {
+    "title": "Il Nostro Team",
+    "subtitle": "Competenza ed empatia per la tua salute dentale."
+  },
+  "contact": {
+    "title": "Contatto & Posizione",
+    "opening_hours": "Orari di apertura",
+    "address": "Indirizzo",
+    "directions": "Indicazioni"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati."
+  }
+}

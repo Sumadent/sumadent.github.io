@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sumadent - Zahnarztpraxis Zürich</title>
+    <meta name="description" content="Premium Zahnarztpraxis in der Schweiz. Professionelle Dentalhygiene, ästhetische Zahnmedizin und Implantate." />
+    <!-- Preconnect to Google Fonts for Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Sumadent",
+      "image": "https://www.sumadent.ch/assets/logo.png",
+      "telePhone": "+41 44 123 4567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bahnhofstrasse 12",
+        "addressLocality": "Zürich",
+        "postalCode": "8001",
+        "addressCountry": "CH"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
