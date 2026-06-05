@@ -22,12 +22,18 @@ export function Contact(): JSX.Element {
                 <Clock size={20} /> {t('contact.opening_hours')}
               </h3>
               <ul className="contact-block__list">
-                {hours.map((h, idx) => (
-                  <li key={idx}>
-                    <span>{h.days}</span>
-                    <span>{h.hours}</span>
-                  </li>
-                ))}
+                {hours.map((h, idx) => {
+                  const isClosed = h.hours.toLowerCase().includes('geschlossen') || 
+                                   h.hours.toLowerCase().includes('closed') || 
+                                   h.hours.toLowerCase().includes('fermé') || 
+                                   h.hours.toLowerCase().includes('chiuso');
+                  return (
+                    <li key={idx} className={isClosed ? 'closed' : ''}>
+                      <span className="contact-block__list-day">{h.days}</span>
+                      <span className="contact-block__list-hours">{h.hours}</span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 
@@ -40,8 +46,8 @@ export function Contact(): JSX.Element {
                 {clinicConfig.address.zip} {clinicConfig.address.city}
               </p>
               <div className="contact-block__transit">
-                <p>🚆 {transit.train}</p>
-                <p>🅿️ {transit.parking}</p>
+                <p>{transit.parking}</p>
+                <p>{transit.train}</p>
               </div>
             </div>
 

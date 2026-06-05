@@ -29,18 +29,32 @@
 }
 
 .contact-block__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
   list-style: none;
 }
 
 .contact-block__list li {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0;
-  border-bottom: var(--border-hairline);
+  padding: 0;
+  font-size: var(--size-body);
 }
 
-.contact-block__list li:last-child {
-  border-bottom: none;
+.contact-block__list-day {
+  font-weight: 500;
+  color: var(--color-navy);
+}
+
+.contact-block__list-hours {
+  color: var(--color-text-secondary);
+}
+
+.contact-block__list li.closed .contact-block__list-day,
+.contact-block__list li.closed .contact-block__list-hours {
+  color: var(--color-text-muted);
+  font-weight: 400;
 }
 
 .contact-block__transit {
