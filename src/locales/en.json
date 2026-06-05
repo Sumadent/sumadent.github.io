@@ -21,12 +21,12 @@
     "title": "Our Services",
     "categories": {
       "general": {
-        "title": "General Dentistry",
-        "desc": "Preserving teeth instead of replacing them: Gentle cavity treatment, modern fillings, and therapies"
+        "title": "General and Conservative Dentistry",
+        "desc": "Preserving teeth: Gentle caries and erosion treatments, modern fillings and therapies"
       },
       "prosthetics": {
-        "title": "Tooth Replacement",
-        "desc": "Closing gaps, restoring quality of life: Crowns, bridges, and dentures - custom-made, functional, and aesthetic"
+        "title": "Prosthetics",
+        "desc": "Closing gaps, restoring quality of life: Crowns, bridges, as well as partial and full dentures - tailor-made, functional and aesthetic"
       },
       "aesthetic": {
         "title": "Aesthetic Dentistry",
@@ -34,7 +34,7 @@
       },
       "dh": {
         "title": "Dental Hygiene",
-        "desc": "Prevention that protects: Professional cleaning for a fresh mouth feeling and healthy teeth"
+        "desc": "Prevention that protects your visible and, if necessary, invisible mouth: Medical and dental treatment for a fresh feeling with well-cared-for teeth on a firm foundation"
       }
     }
   },

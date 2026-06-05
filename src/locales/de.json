@@ -22,11 +22,11 @@
     "categories": {
       "general": {
         "title": "Allgemeine Zahnheilkunde",
-        "desc": "Zähne erhalten statt ersetzen: Schonende Kariesbehandlung, moderne Füllungen und Therapien"
+        "desc": "Zähne erhalten: Schonende Karies- und Erosionsbehandlungen, moderne Füllungen und Therapien"
       },
       "prosthetics": {
         "title": "Zahnersatz",
-        "desc": "Lücken schliessen, Lebensqualität zurückholen: Kronen, Brücken und Prothesen - massgeschneidert, funktional und ästhetisch"
+        "desc": "Lücken schliessen, Lebensqualität zurückholen: Kronen, Brücken sowie Teil- und Vollprothesen - massgeschneidert, funktional und ästhetisch"
       },
       "aesthetic": {
         "title": "Ästhetische Zahnmedizin",
@@ -34,7 +34,7 @@
       },
       "dh": {
         "title": "Dentalhygiene",
-        "desc": "Vorsorge, die schützt: Professionelle Reinigung für ein frisches Mundgefühl und gesunde Zähne"
+        "desc": "Vorsorge, die Ihren sichtbaren und ggf. nicht sichtbaren Mund schützt: Medizinische und zahnmedizinische Behandlung für ein frisches Gefühl mit gepflegten Zähnen in einem festen Fundament"
       }
     }
   },

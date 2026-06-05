@@ -22,6 +22,8 @@
   height: 48px;
   width: auto;
   display: block;
+  border: var(--border-hairline);
+  border-radius: 4px;
 }
 
 .header__nav {

@@ -21,12 +21,12 @@
     "title": "Nos Services",
     "categories": {
       "general": {
-        "title": "Soins dentaires généraux",
-        "desc": "Préserver les dents plutôt que les remplacer : traitement doux des caries, obturations et thérapies modernes"
+        "title": "Médecine dentaire générale et conservatrice",
+        "desc": "Préserver les dents : Traitements doux des caries et de l'érosion, obturations et thérapies modernes"
       },
       "prosthetics": {
         "title": "Prothèses dentaires",
-        "desc": "Combler les espaces, retrouver la qualité de vie : couronnes, ponts et prothèses - sur mesure, fonctionnels et esthétiques"
+        "desc": "Combler les espaces, restaurer la qualité de vie : Couronnes, ponts ainsi que prothèses partielles et complètes - sur mesure, fonctionnelles et esthétiques"
       },
       "aesthetic": {
         "title": "Dentisterie esthétique",
@@ -34,7 +34,7 @@
       },
       "dh": {
         "title": "Hygiène dentaire",
-        "desc": "La prévention qui protège : nettoyage professionnel pour une bouche fraîche et des dents saines"
+        "desc": "Une prévention qui protège votre bouche visible et, si nécessaire, invisible : Un traitement médical et dentaire pour une sensation de fraîcheur avec des dents soignées sur des bases solides"
       }
     }
   },
