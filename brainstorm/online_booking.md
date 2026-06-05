@@ -63,7 +63,9 @@ Using standard, non-medical scheduling APIs that provide native React components
 
 ---
 
-## Summary & Recommendation for MVP
-We recommend starting with **Option B (Custom React Form)** for the MVP if the clinic doesn't have an active OneDoc subscription. It allows us to design a beautiful, conversion-focused user interface without external code dependencies. 
+## Decision for MVP: Direct Phone Call (Click-to-Call)
 
-If they do use **OneDoc**, we will implement **Option A (Embedded iframe modal)**, which is standard, highly reliable, and preferred by patients in Switzerland.
+For the MVP, we are simplifying the "booking" flow entirely to optimize for immediate mobile conversion and zero code complexity:
+- The CTA buttons ("Online Booking" / "Book Appointment") will simply trigger a **direct phone call** (`tel:+41...`) or display the clinic's phone number clearly with a prominent call icon.
+- This ensures ultra-fast mobile loading times, zero data-privacy concerns, and simple, direct phone scheduling. We will transition to Option A or B in a post-MVP release.
+

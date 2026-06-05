@@ -24,7 +24,7 @@ Here is the proposed component structure and features tailored to achieve high m
   - *German*: "Ihr Lächeln in besten Händen." (Your smile in the best hands.)
   - *English*: "Expert Dental Care in the Heart of Switzerland."
 - **Key Trust Badges**: Inline badges indicating memberships (e.g., **SSO** - Schweizerische Zahnärzte-Gesellschaft, **SGAER**) to build instant Swiss credibility.
-- **CTA**: Prominent secondary button "Online Booking" (Online-Terminbuchung) and a primary click-to-call button.
+- **CTA**: Clear primary call-to-action button that triggers a direct phone call for instant booking.
 
 ### C. Interactive Treatment Selector (Our Services)
 Instead of a long, boring text list, we brainstormed an interactive layout:
@@ -49,9 +49,8 @@ Instead of a long, boring text list, we brainstormed an interactive layout:
 - **Location details**:
   - Interactive Map (optimized for mobile touch-dragging).
   - Directions for arrival: "3 minutes walk from train station", "Blue-zone parking spaces available directly in front".
-- **Simple Online Booking Request Form**:
-  - Form fields: Name, Phone, Email, Preferred Service, Preferred Day/Time.
-  - A clean, modern success screen with a checkbox to add the appointment request to Google Calendar/Apple Calendar.
+- **Centralized Contact Presentation**:
+  - The phone number, email, and opening hours are rendered dynamically from a single central configuration file `src/config/clinicConfig.ts`.
 
 ---
 

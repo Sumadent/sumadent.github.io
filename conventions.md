@@ -14,6 +14,8 @@ sumadent/
 ├── public/                 # Static assets (favicons, manifest, etc.)
 ├── src/
 │   ├── assets/             # Images, icons, and illustrations
+│   ├── config/             # Static configurations
+│   │   └── clinicConfig.ts # Single source of truth for phone, opening hours, etc.
 │   ├── components/         # Reusable UI components
 │   │   ├── Button/
 │   │   │   ├── Button.tsx
@@ -40,6 +42,7 @@ sumadent/
 ```
 
 ---
+
 
 ## 2. Naming Conventions
 
