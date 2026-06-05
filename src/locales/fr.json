@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "services": "Services",
+    "team": "Équipe",
+    "contact": "Contact",
+    "book_now": "Prendre Rendez-vous"
+  },
+  "seo": {
+    "title": "Sumadent – Cabinet dentaire Weesen",
+    "description": "Cabinet dentaire professionnel à Weesen. Hygiène dentaire, traitements modernes et une équipe qui prend soin de vous.",
+    "og_title": "Sumadent – Votre cabinet dentaire à Weesen",
+    "og_description": "Dentisterie moderne, qualité suisse et suivi personnalisé à Weesen."
+  },
+  "hero": {
+    "title": "Votre sourire entre de bonnes mains.",
+    "subtitle": "Cabinet dentaire à Weesen. Traitements modernes, qualité suisse et une équipe qui prend soin de vous.",
+    "cta": "Appeler & Réserver",
+    "badge_sso": "Membre SSO"
+  },
+  "services": {
+    "title": "Nos Services",
+    "categories": {
+      "general": {
+        "title": "Médecine dentaire générale et conservatrice",
+        "desc": "Préserver les dents : Traitements doux des caries et de l'érosion, obturations et thérapies modernes"
+      },
+      "prosthetics": {
+        "title": "Prothèses dentaires",
+        "desc": "Combler les espaces, restaurer la qualité de vie : Couronnes, ponts ainsi que prothèses partielles et complètes - sur mesure, fonctionnelles et esthétiques"
+      },
+      "aesthetic": {
+        "title": "Dentisterie esthétique",
+        "desc": "Blanchiment, facettes et restaurations esthétiques pour des dents que vous serez fier de montrer"
+      },
+      "dh": {
+        "title": "Hygiène dentaire",
+        "desc": "Une prévention qui protège votre bouche visible et, si nécessaire, invisible : Un traitement médical et dentaire pour une sensation de fraîcheur avec des dents soignées sur des bases solides"
+      }
+    }
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "subtitle": "Compétence et empathie pour votre santé dentaire.",
+    "roles": {
+      "dentist": "Dentiste (SSO)",
+      "hygienist": "Hygiéniste dentaire dipl. ES",
+      "assistant": "Assistante dentaire"
+    }
+  },
+  "contact": {
+    "title": "Contact & Accès",
+    "contact_label": "Contact",
+    "opening_hours": "Heures d'ouverture",
+    "address": "Adresse",
+    "directions": "Accès",
+    "sbb_button": "Rechercher l'itinéraire",
+    "sbb_desc": "Ouvre l'horaire CFF avec votre position actuelle comme point de départ."
+  },
+  "impressum": {
+    "title": "Mentions légales",
+    "company": "Nom & Adresse",
+    "representative": "Personnes autorisées à représenter",
+    "representative_value": "Sushma Ilg, Hygiéniste dentaire dipl. ES",
+    "contact": "Contact",
+    "phone_label": "Téléphone",
+    "email_label": "E-mail",
+    "disclaimer_title": "Clause de non-responsabilité",
+    "disclaimer_text": "L'auteur n'assume aucune responsabilité quant à l'exactitude, la précision, l'actualité, la fiabilité et l'exhaustivité des informations. Toute prétention en responsabilité à l'encontre de l'auteur pour des dommages matériels ou immatériels résultant de l'accès, de l'utilisation ou de la non-utilisation des informations publiées, d'un mauvais usage de la connexion ou de pannes techniques est exclue. Toutes les offres sont sans engagement. L'auteur se réserve expressément le droit de modifier, de compléter ou de supprimer tout ou partie des pages sans préavis, ou d'en cesser la publication temporairement ou définitivement.",
+    "links_title": "Responsabilité pour les liens",
+    "links_text": "Les renvois et liens vers des sites web de tiers sont hors de notre domaine de responsabilité. Toute responsabilité concernant ces sites est déclinée. L'accès et l'utilisation de ces sites se font aux risques et périls de l'utilisateur.",
+    "copyright_title": "Droits d'auteur",
+    "copyright_text": "Les droits d'auteur et tous les autres droits sur le contenu, les images, les photos ou d'autres fichiers du site web appartiennent exclusivement à la société mentionnée ou aux titulaires de droits spécifiquement nommés. Le consentement écrit des titulaires des droits d'auteur doit être obtenu au préalable pour la reproduction de tout élément."
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}
