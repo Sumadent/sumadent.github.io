@@ -54,6 +54,11 @@ sumadent/
 │   ├── i18n.ts             # i18next setup (auto-loads every locales/*.json)
 │   ├── App.tsx             # Top-level layout (Seo + Header + PageRouter + Footer)
 │   └── main.tsx            # React mounting shell
+├── index.html              # HTML entry point shell
+├── package.json            # Scripts, dependencies, and metadata
+├── tsconfig.json           # TypeScript configuration
+├── vite.config.ts          # Vite build tool configuration
+└── conventions.md          # Project conventions and developer guidelines
 ```
 
 > Imports use the `@/` path alias for `src/` (e.g. `@/config/team`), configured in
