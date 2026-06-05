@@ -15,20 +15,20 @@
     "title": "I Nostri Servizi",
     "categories": {
       "general": {
-        "title": "Odontoiatria generale e conservativa",
-        "desc": "Trattamento delicato delle carie, otturazioni e devitalizzazioni per salvare i vostri denti."
+        "title": "Odontoiatria generale",
+        "desc": "Preservare i denti anziché sostituirli: cura delicata delle carie, otturazioni e terapie moderne"
       },
       "prosthetics": {
         "title": "Protesi dentarie",
-        "desc": "Corone, ponti e protesi – personalizzati, funzionali ed estetici."
+        "desc": "Colmare gli spazi vuoti, ritrovare la qualità della vita: corone, ponti e protesi - su misura, funzionali ed estetici"
       },
       "aesthetic": {
         "title": "Odontoiatria estetica",
-        "desc": "Sbiancamento, faccette e restauri estetici per il vostro sorriso migliore."
+        "desc": "Sbiancamento, faccette e restauri estetici per denti che sarete felici di mostrare"
       },
       "dh": {
         "title": "Igiene dentale",
-        "desc": "Pulizia professionale dei denti e profilassi per una salute orale a lungo termine."
+        "desc": "Prevenzione che protegge: pulizia professionale per una sensazione di freschezza e denti sani"
       }
     }
   },

@@ -15,20 +15,20 @@
     "title": "Nos Services",
     "categories": {
       "general": {
-        "title": "Soins dentaires généraux & conservateurs",
-        "desc": "Traitement doux des caries, obturations et traitement de canal pour préserver vos dents."
+        "title": "Soins dentaires généraux",
+        "desc": "Préserver les dents plutôt que les remplacer : traitement doux des caries, obturations et thérapies modernes"
       },
       "prosthetics": {
         "title": "Prothèses dentaires",
-        "desc": "Couronnes, ponts et prothèses – sur mesure, fonctionnels et esthétiques."
+        "desc": "Combler les espaces, retrouver la qualité de vie : couronnes, ponts et prothèses - sur mesure, fonctionnels et esthétiques"
       },
       "aesthetic": {
         "title": "Dentisterie esthétique",
-        "desc": "Blanchiment, facettes et restaurations esthétiques pour votre plus beau sourire."
+        "desc": "Blanchiment, facettes et restaurations esthétiques pour des dents que vous serez fier de montrer"
       },
       "dh": {
         "title": "Hygiène dentaire",
-        "desc": "Nettoyage professionnel et prophylaxie pour une santé bucco-dentaire durable."
+        "desc": "La prévention qui protège : nettoyage professionnel pour une bouche fraîche et des dents saines"
       }
     }
   },

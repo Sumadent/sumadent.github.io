@@ -15,20 +15,20 @@
     "title": "Unsere Dienstleistungen",
     "categories": {
       "general": {
-        "title": "Allgemeine & konservierende Zahnheilkunde",
-        "desc": "Schonende Kariesbehandlung, Füllungen und Wurzelkanalbehandlungen für den Zahnerhalt."
+        "title": "Allgemeine Zahnheilkunde",
+        "desc": "Zähne erhalten statt ersetzen: Schonende Kariesbehandlung, moderne Füllungen und Therapien"
       },
       "prosthetics": {
         "title": "Zahnersatz",
-        "desc": "Kronen, Brücken und Prothesen – massgeschneidert, funktional und ästhetisch."
+        "desc": "Lücken schliessen, Lebensqualität zurückholen: Kronen, Brücken und Prothesen - massgeschneidert, funktional und ästhetisch"
       },
       "aesthetic": {
         "title": "Ästhetische Zahnmedizin",
-        "desc": "Bleaching, Veneers und zahnfarbene Restaurationen für Ihr schönstes Lächeln."
+        "desc": "Bleaching, Veneers und zahnfarbene Restaurationen für Zähne, die Sie gerne zeigen"
       },
       "dh": {
         "title": "Dentalhygiene",
-        "desc": "Professionelle Zahnreinigung und Prophylaxe zur langfristigen Gesunderhaltung."
+        "desc": "Vorsorge, die schützt: Professionelle Reinigung für ein frisches Mundgefühl und gesunde Zähne"
       }
     }
   },
