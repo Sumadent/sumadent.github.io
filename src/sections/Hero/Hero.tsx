@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { Phone, ShieldCheck } from 'lucide-react';
-import { clinicConfig } from '@/config/clinicConfig';
+import { CalendarCheck, ShieldCheck } from 'lucide-react';
+import { BOOKING_ROUTE } from '@/config/navigation';
 import { Button } from '@/components/Button/Button';
 import landingImg from '@/assets/placeholders/placeHolderLandingImage.jpeg';
 import './Hero.css';
@@ -28,12 +28,12 @@ export function Hero(): JSX.Element {
           <div className="hero__actions">
             <Button
               as="a"
-              href={`tel:${clinicConfig.phoneRaw}`}
+              href={BOOKING_ROUTE}
               variant="primary"
               className="hero__cta"
             >
-              <Phone size={20} className="hero__cta-icon" />
-              {t('hero.cta')}: {clinicConfig.phoneDisplay}
+              <CalendarCheck size={20} className="hero__cta-icon" />
+              {t('hero.cta')}
             </Button>
           </div>
         </div>

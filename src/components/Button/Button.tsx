@@ -8,6 +8,10 @@ interface ButtonProps {
   className?: string;
   as?: 'button' | 'a';
   href?: string;
+  /** Native button type. Only applies when `as === 'button'`. */
+  type?: 'button' | 'submit';
+  /** Disable the button. Only applies when `as === 'button'`. */
+  disabled?: boolean;
 }
 
 export function Button({
@@ -17,6 +21,8 @@ export function Button({
   className = '',
   as = 'button',
   href,
+  type = 'button',
+  disabled = false,
 }: ButtonProps): JSX.Element {
   const classes = `btn btn--${variant} ${className}`;
 
@@ -29,7 +35,12 @@ export function Button({
   }
 
   return (
-    <button className={classes} onClick={onClick}>
+    <button
+      className={classes}
+      onClick={onClick}
+      type={type}
+      disabled={disabled}
+    >
       {children}
     </button>
   );

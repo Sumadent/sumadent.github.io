@@ -14,8 +14,22 @@
   "hero": {
     "title": "Votre sourire entre de bonnes mains.",
     "subtitle": "Cabinet dentaire à Weesen. Traitements modernes, qualité suisse et une équipe qui prend soin de vous.",
-    "cta": "Appeler & Réserver",
+    "cta": "Prendre rendez-vous",
     "badge_sso": "Membre SSO"
+  },
+  "booking": {
+    "title": "Prendre rendez-vous",
+    "intro": "Choisissez comment vous souhaitez prendre rendez-vous – par téléphone ou facilement en ligne.",
+    "call_title": "Par téléphone",
+    "call_desc": "Appelez-nous pendant les heures d'ouverture. Nous vous conseillons personnellement et trouvons ensemble un créneau adapté.",
+    "online_title": "Réserver en ligne",
+    "online_desc": "Réservez le créneau de votre choix directement en ligne. Le rendez-vous est automatiquement ajouté à l'agenda du cabinet.",
+    "legal_title": "Réservation ferme et payante",
+    "legal_text": "En réservant en ligne, vous prenez un rendez-vous ferme. En cas d'absence ou d'annulation moins de 24 heures à l'avance, nous nous réservons le droit de facturer le temps réservé ou des frais de rendez-vous manqué.",
+    "consent_label": "Je reconnais que cette réservation est ferme et payante.",
+    "unlock_button": "Continuer vers la réservation en ligne",
+    "iframe_title": "Prise de rendez-vous en ligne ZaWin",
+    "pending_text": "La prise de rendez-vous en ligne sera bientôt disponible. En attendant, veuillez prendre rendez-vous par téléphone."
   },
   "services": {
     "title": "Nos Services",

@@ -14,8 +14,22 @@
   "hero": {
     "title": "Expert Dental Care in the Heart of Switzerland.",
     "subtitle": "Dental practice in Weesen. Modern treatments, Swiss quality, and a team that cares about you.",
-    "cta": "Call Now & Book",
+    "cta": "Book Appointment",
     "badge_sso": "SSO Member"
+  },
+  "booking": {
+    "title": "Book an Appointment",
+    "intro": "Choose how you would like to book your appointment – by phone or conveniently online.",
+    "call_title": "By Phone",
+    "call_desc": "Call us during opening hours. We will advise you personally and find a suitable time together.",
+    "online_title": "Book Online",
+    "online_desc": "Book your preferred time directly online. The appointment is added to our practice calendar automatically.",
+    "legal_title": "Binding & Chargeable Booking",
+    "legal_text": "By booking online you arrange a binding appointment. In the event of a no-show or a cancellation made less than 24 hours in advance, we reserve the right to charge for the time reserved or a missed-appointment fee.",
+    "consent_label": "I acknowledge that this booking is binding and chargeable.",
+    "unlock_button": "Continue to Online Booking",
+    "iframe_title": "ZaWin online appointment booking",
+    "pending_text": "Online appointment booking will be available shortly. In the meantime, please arrange your appointment by phone."
   },
   "services": {
     "title": "Our Services",

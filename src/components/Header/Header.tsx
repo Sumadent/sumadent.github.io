@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Phone, Menu, X } from 'lucide-react';
-import { clinicConfig } from '@/config/clinicConfig';
+import { CalendarCheck, Menu, X } from 'lucide-react';
 import { SUPPORTED_LANGUAGES } from '@/config/languages';
-import { NAV_ITEMS } from '@/config/navigation';
+import { NAV_ITEMS, BOOKING_ROUTE } from '@/config/navigation';
 import { SITE } from '@/config/site';
 import { Button } from '@/components/Button/Button';
 import './Header.css';
@@ -68,14 +67,12 @@ export function Header({ isDesktop }: HeaderProps): JSX.Element {
 
           <Button
             as="a"
-            href={`tel:${clinicConfig.phoneRaw}`}
+            href={BOOKING_ROUTE}
             variant="primary"
             className="header__cta"
           >
-            <Phone size={18} className="header__cta-icon" />
-            <span className="header__cta-text">
-              {t('nav.book_now')}: {clinicConfig.phoneDisplay}
-            </span>
+            <CalendarCheck size={18} className="header__cta-icon" />
+            <span className="header__cta-text">{t('nav.book_now')}</span>
           </Button>
 
           <button

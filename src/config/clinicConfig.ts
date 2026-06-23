@@ -32,6 +32,16 @@ export interface ClinicContactInfo {
     googleMapsEmbedUrl: string; // URL for maps iframe
     googleMapsDirectionUrl: string; // URL for google maps redirection
   };
+  /**
+   * ZaWin "Online-Agenda" booking widget URL (e.g. `https://webtermin.zawin.ch/...`).
+   *
+   * Empty until the clinic activates the module and ZaWin support (Martin
+   * Engineering AG) provides the link — see `brainstorm/zawin_integration_todo.md`.
+   * While empty, the booking page shows an "integration pending" placeholder
+   * instead of the embedded widget. When set, appointments booked through it
+   * sync directly into the clinic's local ZaWin calendar.
+   */
+  zawinBookingUrl: string;
   /** Localized opening-hours rows for display, keyed by language. */
   openingHours: Record<LanguageCode, OpeningHoursRow[]>;
   /** Language-neutral opening hours for SEO structured data. */
@@ -49,6 +59,8 @@ export const clinicConfig: ClinicContactInfo = {
   phoneRaw: '+41556161043',
   phoneDisplay: '+41 55 616 10 43',
   email: 'info@sumadent.ch',
+  // TODO(zawin): paste the Web-Widget URL from ZaWin support here to go live.
+  zawinBookingUrl: '',
   address: {
     street: 'Schulhausstrasse 6',
     zip: '8872',

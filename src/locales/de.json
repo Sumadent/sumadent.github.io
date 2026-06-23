@@ -14,8 +14,22 @@
   "hero": {
     "title": "Ihr Lächeln in besten Händen.",
     "subtitle": "Zahnarztpraxis in Weesen. Moderne Behandlungen, Schweizer Qualität und ein Team, das sich um Sie kümmert.",
-    "cta": "Jetzt anrufen & Termin vereinbaren",
+    "cta": "Termin vereinbaren",
     "badge_sso": "Mitglied SSO"
+  },
+  "booking": {
+    "title": "Termin vereinbaren",
+    "intro": "Wählen Sie, wie Sie Ihren Termin vereinbaren möchten – telefonisch oder bequem online.",
+    "call_title": "Telefonisch",
+    "call_desc": "Rufen Sie uns während der Öffnungszeiten an. Wir beraten Sie persönlich und finden gemeinsam einen passenden Termin.",
+    "online_title": "Online buchen",
+    "online_desc": "Buchen Sie Ihren Wunschtermin direkt online. Die Buchung wird automatisch in unseren Praxiskalender übernommen.",
+    "legal_title": "Verbindliche & kostenpflichtige Buchung",
+    "legal_text": "Mit der Online-Buchung vereinbaren Sie einen verbindlichen Termin. Bei Nichterscheinen oder einer Absage von weniger als 24 Stunden im Voraus behalten wir uns vor, den entstandenen Aufwand bzw. ein Ausfallhonorar in Rechnung zu stellen.",
+    "consent_label": "Ich habe zur Kenntnis genommen, dass die Buchung verbindlich und kostenpflichtig ist.",
+    "unlock_button": "Weiter zur Online-Buchung",
+    "iframe_title": "ZaWin Online-Terminbuchung",
+    "pending_text": "Die Online-Terminbuchung wird in Kürze verfügbar sein. Bitte vereinbaren Sie Ihren Termin in der Zwischenzeit telefonisch."
   },
   "services": {
     "title": "Unsere Dienstleistungen",

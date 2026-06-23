@@ -4,6 +4,7 @@ import { Services } from '@/sections/Services/Services';
 import { Team } from '@/sections/Team/Team';
 import { Contact } from '@/sections/Contact/Contact';
 import { Impressum } from '@/sections/Impressum/Impressum';
+import { Booking } from '@/sections/Booking/Booking';
 
 interface PageRouterProps {
   page: Page;
@@ -19,6 +20,10 @@ interface PageRouterProps {
 export function PageRouter({ page, isDesktop }: PageRouterProps): JSX.Element {
   if (page === 'impressum') {
     return <Impressum />;
+  }
+
+  if (page === 'booking') {
+    return <Booking />;
   }
 
   if (page === 'team' && !isDesktop) {

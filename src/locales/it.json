@@ -14,8 +14,22 @@
   "hero": {
     "title": "Il tuo sorriso nelle migliori mani.",
     "subtitle": "Studio dentistico a Weesen. Trattamenti moderni, qualità svizzera e un team che si prende cura di voi.",
-    "cta": "Chiama ora e prenota",
+    "cta": "Prenota appuntamento",
     "badge_sso": "Membro SSO"
+  },
+  "booking": {
+    "title": "Prenota un appuntamento",
+    "intro": "Scegli come desideri prenotare il tuo appuntamento – per telefono o comodamente online.",
+    "call_title": "Per telefono",
+    "call_desc": "Chiamaci durante gli orari di apertura. Ti consigliamo personalmente e troviamo insieme un orario adatto.",
+    "online_title": "Prenota online",
+    "online_desc": "Prenota l'orario che preferisci direttamente online. L'appuntamento viene aggiunto automaticamente al calendario dello studio.",
+    "legal_title": "Prenotazione vincolante e a pagamento",
+    "legal_text": "Prenotando online fissi un appuntamento vincolante. In caso di mancata presentazione o di disdetta con meno di 24 ore di preavviso, ci riserviamo il diritto di fatturare il tempo riservato o un onorario per l'appuntamento mancato.",
+    "consent_label": "Prendo atto che questa prenotazione è vincolante e a pagamento.",
+    "unlock_button": "Continua con la prenotazione online",
+    "iframe_title": "Prenotazione appuntamenti online ZaWin",
+    "pending_text": "La prenotazione online degli appuntamenti sarà presto disponibile. Nel frattempo, ti preghiamo di fissare il tuo appuntamento per telefono."
   },
   "services": {
     "title": "I Nostri Servizi",

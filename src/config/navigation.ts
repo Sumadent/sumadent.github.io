@@ -10,14 +10,18 @@
  */
 
 /** Distinct pages the router can render. */
-export type Page = 'home' | 'team' | 'impressum';
+export type Page = 'home' | 'team' | 'impressum' | 'booking';
 
 export const DEFAULT_PAGE: Page = 'home';
+
+/** Hash route to the standalone appointment-booking page. */
+export const BOOKING_ROUTE = '#/booking';
 
 /** Maps a `window.location.hash` value to a page. Anything else is the home page. */
 export const PAGE_ROUTES: Record<string, Page> = {
   '#/team': 'team',
   '#/impressum': 'impressum',
+  [BOOKING_ROUTE]: 'booking',
 };
 
 export interface NavItem {
