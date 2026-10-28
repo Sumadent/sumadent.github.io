@@ -62,37 +62,32 @@ export const clinicConfig: ClinicContactInfo = {
   },
   openingHours: {
     de: [
-      { days: 'Montag & Donnerstag', hours: '07:30 - 16:00' },
-      { days: 'Dienstag', hours: '07:30 - 12:00' },
-      {
-        days: 'Mittwoch, Freitag & Sonntag',
-        hours: 'Geschlossen',
-        closed: true,
-      },
+      { days: 'Montag - Freitag', hours: '08:00 - 17:00' },
       { days: 'Letzter Sa. im Monat', hours: '08:00 - 13:00' },
+      { days: 'Sonntag', hours: 'Geschlossen', closed: true },
     ],
     en: [
-      { days: 'Monday & Thursday', hours: '07:30 AM - 04:00 PM' },
-      { days: 'Tuesday', hours: '07:30 AM - 12:00 PM' },
-      { days: 'Wednesday, Friday & Sunday', hours: 'Closed', closed: true },
+      { days: 'Monday - Friday', hours: '08:00 AM - 05:00 PM' },
       { days: 'Last Sat. of the month', hours: '08:00 AM - 01:00 PM' },
+      { days: 'Sunday', hours: 'Closed', closed: true },
     ],
     fr: [
-      { days: 'Lundi & Jeudi', hours: '07h30 - 16h00' },
-      { days: 'Mardi', hours: '07h30 - 12h00' },
-      { days: 'Mercredi, Vendredi & Dimanche', hours: 'Fermé', closed: true },
+      { days: 'Lundi - Vendredi', hours: '08h00 - 17h00' },
       { days: 'Dernier sam. du mois', hours: '08h00 - 13h00' },
+      { days: 'Dimanche', hours: 'Fermé', closed: true },
     ],
     it: [
-      { days: 'Lunedì & Giovedì', hours: '07:30 - 16:00' },
-      { days: 'Martedì', hours: '07:30 - 12:00' },
-      { days: 'Mercoledì, Venerdì & Domenica', hours: 'Chiuso', closed: true },
+      { days: 'Lunedì - Venerdì', hours: '08:00 - 17:00' },
       { days: 'Ultimo sab. del mese', hours: '08:00 - 13:00' },
+      { days: 'Domenica', hours: 'Chiuso', closed: true },
     ],
   },
   openingHoursStructured: [
-    { days: ['Monday', 'Thursday'], opens: '07:30', closes: '16:00' },
-    { days: ['Tuesday'], opens: '07:30', closes: '12:00' },
+    {
+      days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '08:00',
+      closes: '17:00',
+    },
   ],
   transitNotes: {
     de: {
