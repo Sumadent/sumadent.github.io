@@ -43,6 +43,12 @@ export const TEAM_MEMBERS: TeamMember[] = [
     image: profilePlaceholder,
   },
   {
+    name: 'Laura Loisi',
+    roleKey: 'team. roles.assistant',
+    schemaJobTitle: 'Dentalassistentin',
+    image: profilePlaceholder, 
+  },
+  {
     name: 'Valentina Dula',
     roleKey: 'team.roles.assistant',
     schemaJobTitle: 'Dentalassistentin',
