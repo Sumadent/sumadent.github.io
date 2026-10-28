@@ -1,0 +1,56 @@
+# Builds the site and publishes it to GitHub Pages on every push to `main`.
+#
+# The repo is meant to live at `sumadent/sumadent.github.io` with the custom
+# domain www.sumadent.ch, so the site is always served from a domain root and
+# Vite's default `base: '/'` stays correct. Under any other repo name and
+# without the custom domain, the site moves to a sub-path and `base` in
+# `vite.config.ts` must be set to `/<repo-name>/`.
+#
+# One-time repo settings (Settings → Pages):
+#   - Source: "GitHub Actions"
+#   - Custom domain: www.sumadent.ch, then "Enforce HTTPS"
+# The custom domain lives in these settings only. A `CNAME` file is ignored
+# for Actions deployments, so the repo does not need one.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time. A run in progress always finishes; a newer
+# push replaces any run still waiting in the queue.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v5

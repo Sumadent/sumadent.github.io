@@ -33,6 +33,7 @@ To ensure consistency and ease of maintenance, all contact information, address 
 
 ```text
 sumadent/
+├── .github/workflows/      # deploy.yml builds and publishes the site to GitHub Pages
 ├── brainstorm/             # Brainstorming & architectural planning files
 ├── public/                 # Static assets (favicons, manifest, etc.)
 ├── src/
@@ -100,3 +101,16 @@ npx prettier --write .
 # Run ESLint check
 npm run lint
 ```
+
+### Deployment
+Every push to `main` builds the site and publishes it to **GitHub Pages** via
+`.github/workflows/deploy.yml` (it can also be started by hand under
+*Actions → Deploy to GitHub Pages → Run workflow*).
+
+* **Address**: the repo lives at `sumadent/sumadent.github.io` and is served under
+  the custom domain **www.sumadent.ch**, so Vite's default `base: '/'` is correct.
+* **Custom domain**: set in *Settings → Pages → Custom domain*, not in a `CNAME`
+  file (Actions deployments ignore it). DNS is managed at cyon: `www` is a CNAME to
+  `sumadent.github.io`, the apex `sumadent.ch` points to the GitHub Pages IPs.
+* **Leave the mail records alone**: e-mail for `sumadent.ch` runs on Microsoft 365
+  (MX, `autodiscover`, `enterpriseregistration`, SPF TXT).
