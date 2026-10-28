@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Phone, ShieldCheck } from 'lucide-react';
 import { clinicConfig } from '@/config/clinicConfig';
 import { Button } from '@/components/Button/Button';
-import landingImg from '@/assets/placeholders/placeHolderLandingImage.jpeg';
+import landingImg from '@/assets/placeholders/landingimage.jpg';
 import './Hero.css';
 
 export function Hero(): JSX.Element {
